@@ -1,0 +1,174 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ body
+{
+    background-image: url(img/login.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+} 
+.signup::after
+{
+    content: "";
+    width: 200px;
+    height: 2px;
+    color: green;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+}
+.signup
+{
+    width: 800px;
+    height: 500px;
+    background-color: #000000b0;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 70px 30px;
+}
+.signup::after
+{
+    content: "";
+    width: 230px;
+    height: 2px;
+    background: #647764;
+    position: absolute;
+    top: 58%;
+    left: 48%;
+    transform: rotate(90deg);
+}
+
+img
+{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -45px;
+    left: 43%;
+}
+h1
+{
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 2px 2px red;
+    padding-bottom: 20px;
+}
+
+.signup input
+{
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.signup input[type="text"], input[type="email"], input[type="password"]
+{
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    color: white;
+    font-size: 16px;
+    background-color: transparent;
+}
+.gender
+{
+    position: absolute;
+    top: 75%;
+}
+.signup input[type="submit"]
+{
+    width: 20%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    background: #fb2525;
+    color: #fff;
+}
+.signup input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000; 
+}
+.signup a
+{
+    margin-left: 3px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #fb2525;
+    padding: 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+    border-radius: 20px;
+}
+.signup a:hover
+{
+    background: green;
+    color: #fff; 
+}
+.signup h1::after
+{
+    content: "";
+    width: 200px;
+    height: 2px;
+    color: green;
+    position: absolute;
+    top: 50%;
+    left: 80%
+}
+ul
+{
+    float: right;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    width: 100%;
+}
+ul li
+{
+    list-style: none;
+    margin-bottom: 20px;
+
+}
+ul li a.fb
+{
+    background: #252574;
+    position: absolute;
+    top: -30%;
+    left: -5%;
+    width: 30%;
+    text-align: center;
+
+}
+ul li a.fb:hover
+{
+    background: blue;
+    transition: .5s;
+}
+ul li a.google
+{
+    background: #ce4040;
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    width: 30%;
+    text-align: center;
+}
+ul li a.google:hover
+{
+    background: red;
+    transition: .5s;
+}
